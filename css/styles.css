@@ -1,0 +1,158 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: #e7e9fc;
+}
+
+footer {
+  background-color: #2e2f42;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h2 {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+h3 {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+p {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+/* header */
+.logo {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #2e2f42;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.logo-web {
+  color: #4d5ae5;
+}
+
+.menu-nav-links {
+  text-decoration: none;
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.menu-nav-links:hover {
+  color: #404bbf;
+}
+.links {
+  text-decoration: none;
+  color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.links:hover {
+  color: #404bbf;
+}
+
+/* Main */
+
+/* title */
+.main-title {
+  background-color: #2e2f42;
+}
+.main-title > h1 {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.main-title-button {
+  background-color: #4d5ae5;
+  color: white;
+  width: 169px;
+  height: 56px;
+}
+
+.main-title-button:hover {
+  background-color: #404bbf;
+}
+
+/* values */
+
+.values {
+  background-color: #ffffff;
+}
+
+.values-h {
+  text-align: left;
+}
+
+.values-p {
+  text-align: left;
+}
+
+/* team */
+
+.team {
+  background-color: #ffffff;
+}
+
+.team-name {
+  text-align: center;
+}
+
+.team-desc {
+  text-align: center;
+}
+
+/* portfolio */
+
+.portfolio {
+  background-color: #ffffff;
+}
+
+/* Footer */
+
+footer .logo {
+  color: #f4f4fd;
+}
+
+footer .logo-web {
+  color: #4d5ae5;
+}
+
+.f-text {
+  color: #f4f4fd;
+}
