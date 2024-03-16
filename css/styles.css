@@ -1,5 +1,6 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+  color: #2e2f42;
 }
 
 header {
@@ -15,7 +16,6 @@ ul {
 }
 
 h2 {
-  color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
@@ -24,7 +24,6 @@ h2 {
 }
 
 h3 {
-  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -34,15 +33,18 @@ h3 {
 p {
   color: #434455;
   font-size: 16px;
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
 }
+
+button {
+  cursor: pointer;
+}
+
 /* header */
 .logo {
   text-decoration: none;
   text-transform: uppercase;
-  color: #2e2f42;
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
@@ -57,7 +59,6 @@ p {
 
 .menu-nav-links {
   text-decoration: none;
-  color: #2e2f42;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
@@ -73,7 +74,6 @@ p {
   color: #434455;
   font-family: Roboto;
   font-size: 16px;
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
@@ -90,7 +90,6 @@ p {
 }
 .main-title > h1 {
   color: #ffffff;
-  font-family: Roboto;
   font-size: 56px;
   font-weight: 700;
   line-height: 60px;
