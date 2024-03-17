@@ -48,7 +48,7 @@ button {
   color: #4d5ae5;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
