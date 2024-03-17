@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
@@ -73,7 +73,7 @@ button {
 .menu-nav-links:hover {
   color: #404bbf;
 }
-.menu-nav-links-studio:focus {
+.studio:focus {
   color: #404bbf;
 }
 
@@ -101,21 +101,28 @@ button {
 .main-title {
   background-color: #2e2f42;
 }
-.main-title > h1 {
+
+.main-title-header {
   color: #ffffff;
   font-size: 56px;
   font-weight: 700;
   line-height: 60px;
   letter-spacing: 0.02em;
   text-align: center;
+  line-height: 1.07;
 }
-
 .main-title-button {
   background-color: #4d5ae5;
   color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
-.main-title-button:hover {
+.main-title-button:hover,
+.main-title-button:focus {
   background-color: #404bbf;
 }
 
