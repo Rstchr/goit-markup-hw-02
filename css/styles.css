@@ -1,6 +1,6 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  color: #2e2f42;
+  font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+  color: #434455;
 }
 
 header {
@@ -16,6 +16,7 @@ ul {
 }
 
 h2 {
+  color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
@@ -24,6 +25,7 @@ h2 {
 }
 
 h3 {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -31,7 +33,6 @@ h3 {
 }
 
 p {
-  color: #434455;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
@@ -43,6 +44,7 @@ button {
 
 /* header */
 .logo {
+  color: #2e2f42;
   text-decoration: none;
   text-transform: uppercase;
   font-family: Raleway;
@@ -58,6 +60,7 @@ button {
 }
 
 .menu-nav-links {
+  color: #2e2f42;
   text-decoration: none;
   font-family: Roboto;
   font-size: 16px;
