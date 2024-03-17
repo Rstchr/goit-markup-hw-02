@@ -77,6 +77,10 @@ button {
   color: #404bbf;
 }
 
+.contacts {
+  font-style: normal;
+}
+
 .links {
   text-decoration: none;
   color: #434455;
@@ -86,7 +90,8 @@ button {
   letter-spacing: 0.02em;
   text-align: left;
 }
-.links:hover {
+.links:hover,
+.links:focus {
   color: #404bbf;
 }
 
@@ -108,8 +113,6 @@ button {
 .main-title-button {
   background-color: #4d5ae5;
   color: white;
-  width: 169px;
-  height: 56px;
 }
 
 .main-title-button:hover {
