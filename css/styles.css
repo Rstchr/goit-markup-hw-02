@@ -1,6 +1,7 @@
 body {
-  font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
   color: #434455;
+  background-color: #ffffff;
 }
 
 header {
@@ -44,19 +45,19 @@ button {
 
 /* header */
 .logo {
-  color: #2e2f42;
+  color: #4d5ae5;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: Raleway;
+  font-family: 'Raleway';
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: left;
 }
 
 .logo-web {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .menu-nav-links {
@@ -72,6 +73,10 @@ button {
 .menu-nav-links:hover {
   color: #404bbf;
 }
+.menu-nav-links-studio:focus {
+  color: #404bbf;
+}
+
 .links {
   text-decoration: none;
   color: #434455;
@@ -113,10 +118,6 @@ button {
 
 /* values */
 
-.values {
-  background-color: #ffffff;
-}
-
 .values-h {
   text-align: left;
 }
@@ -127,10 +128,6 @@ button {
 
 /* team */
 
-.team {
-  background-color: #ffffff;
-}
-
 .team-name {
   text-align: center;
 }
@@ -140,10 +137,6 @@ button {
 }
 
 /* portfolio */
-
-.portfolio {
-  background-color: #ffffff;
-}
 
 /* Footer */
 
