@@ -73,7 +73,7 @@ button {
 .menu-nav-links:hover {
   color: #404bbf;
 }
-.studio:focus {
+.menu-nav-links:first-child:focus {
   color: #404bbf;
 }
 
@@ -137,7 +137,18 @@ button {
 }
 
 /* team */
+.team {
+  background-color: #f4f4fd;
+  text-transform: capitalize;
+}
 
+.team-title {
+  line-height: 1.11;
+}
+
+.team-list {
+  background-color: #ffffff;
+}
 .team-name {
   text-align: center;
 }
@@ -147,15 +158,18 @@ button {
 }
 
 /* portfolio */
-
+.portfolio-title {
+  line-height: 1.11;
+  text-transform: capitalize;
+}
 /* Footer */
 
 footer .logo {
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 
 footer .logo-web {
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 
 .f-text {
